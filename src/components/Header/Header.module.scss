@@ -1,0 +1,69 @@
+@import "/src/stylesheet.scss";
+
+.devilsHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-bottom: 1px solid $red;
+}
+.container {
+  background-color: $black;
+  padding: 0 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  align-self: stretch;
+}
+.headerLogo {
+  padding: 0 7px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.devilsLogo {
+  width: 114px;
+  height: 100px;
+}
+.menus {
+  padding: 10px;
+  display: flex;
+  align-items: flex-start;
+}
+.about {
+  color: $white;
+  @include inter-24-regular;
+  &:not(:last-of-type) {
+    margin-right: 40px;
+  }
+}
+.mintADevil {
+  color: $snow;
+  margin-right: 40px;
+  @include inter-24-regular;
+}
+.socials {
+  padding: 10px 11px;
+  display: flex;
+  align-items: flex-start;
+}
+.twitter {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  &:not(:last-of-type) {
+    margin-right: 20px;
+  }
+}
+.vector {
+  width: 40.1px;
+  height: 32.58px;
+}
+.vectorTwo {
+  width: 36.8px;
+  height: 27.2px;
+}
+.vectorThree {
+  width: 30px;
+  height: 30px;
+}

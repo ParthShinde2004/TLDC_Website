@@ -1,0 +1,15 @@
+// This is the project stylesheet
+
+// Colors
+$black: rgba(0, 0, 0, 1);
+$red: rgba(238, 24, 24, 1);
+$snow: rgba(255, 251, 251, 1);
+$white: rgba(255, 255, 255, 1);
+
+// Typographies
+@mixin inter-24-regular {
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+}
